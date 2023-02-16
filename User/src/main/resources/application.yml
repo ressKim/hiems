@@ -1,3 +1,10 @@
+spring:
+  profiles:
+    active: local
+
+  application:
+    name: user-server
+
 #actuator setting
 management:
   endpoint:
