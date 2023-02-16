@@ -1,0 +1,12 @@
+#actuator setting
+management:
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,beans,metrics
